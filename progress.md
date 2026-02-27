@@ -10,3 +10,9 @@
 - result: Feature acceptance met; package can be initialized as standalone Git repo and published.
 - next step: Optionally add remote URL and run `git init`/`git push` inside `agent-team-open-source/`.
 
+
+## 2026-02-27 U20260227195830
+- what changed: Rewrote root README.md and gent-team-open-source/README.md with explicit step-by-step instructions for maintainer remote push and third-party clone/use flow; updated eature_list.json to locked with concrete reason.
+- commands run: git -C D:\AgentTeamTools\Codex_AutoAgentTeam ls-remote --heads origin; git -C D:\AgentTeamTools\Codex_AutoAgentTeam fetch --dry-run origin; git -C D:\AgentTeamTools\Codex_AutoAgentTeam push origin main; trace capture to .autoharness/push_trace.log.
+- result: Documentation part completed, but direct push could not be finished non-interactively because GitHub auth stalled at git credential-manager get (HTTP 401 observed before credential flow).
+- next step: Configure a non-interactive credential (PAT in credential manager or authenticated helper), then rerun git push origin main.
