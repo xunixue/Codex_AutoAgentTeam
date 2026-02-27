@@ -1,0 +1,12 @@
+{"ts": "2026-02-27 19:51:09", "round": 1, "phase": "planning", "worker": "architect", "status": "started"}
+{"ts": "2026-02-27 19:51:09", "round": 1, "phase": "planning", "worker": "implementer", "status": "started"}
+{"ts": "2026-02-27 19:51:09", "round": 1, "phase": "planning", "worker": "skeptic", "status": "started"}
+{"ts": "2026-02-27 19:51:37", "round": 1, "phase": "planning", "worker": "implementer", "status": "done", "exit": 0, "elapsed_sec": 27.88}
+{"ts": "2026-02-27 19:51:42", "round": 1, "phase": "planning", "worker": "skeptic", "status": "done", "exit": 0, "elapsed_sec": 32.59}
+{"ts": "2026-02-27 19:52:14", "round": 1, "phase": "planning", "worker": "architect", "status": "done", "exit": 0, "elapsed_sec": 65.17}
+{"ts": "2026-02-27 19:52:14", "round": 1, "phase": "review", "worker": "architect", "target": "implementer", "status": "started"}
+{"ts": "2026-02-27 19:52:14", "round": 1, "phase": "review", "worker": "implementer", "target": "skeptic", "status": "started"}
+{"ts": "2026-02-27 19:52:14", "round": 1, "phase": "review", "worker": "skeptic", "target": "architect", "status": "started"}
+{"ts": "2026-02-27 19:52:25", "round": 1, "phase": "review", "worker": "implementer", "target": "skeptic", "status": "done", "exit": 0, "elapsed_sec": 10.88}
+{"ts": "2026-02-27 19:52:27", "round": 1, "phase": "review", "worker": "architect", "target": "implementer", "status": "done", "exit": 0, "elapsed_sec": 12.56}
+{"ts": "2026-02-27 19:52:28", "round": 1, "phase": "review", "worker": "skeptic", "target": "architect", "status": "done", "exit": 0, "elapsed_sec": 13.26}

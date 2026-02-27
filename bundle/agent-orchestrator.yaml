@@ -1,0 +1,23 @@
+﻿dataDir: ~/.agent-orchestrator
+worktreeDir: ~/.worktrees
+port: 3000
+
+defaults:
+  runtime: process
+  agent: codex
+  workspace: worktree
+  notifiers: [desktop]
+
+projects:
+  taco-editor:
+    name: taco-editor
+    repo: wly970123/taco-editor
+    path: 'D:\AgentTeamTools\Codex_AutoAgentTeam'
+    defaultBranch: master
+    sessionPrefix: taco
+    tracker:
+      plugin: github
+    scm:
+      plugin: github
+    agentConfig:
+      permissions: skip

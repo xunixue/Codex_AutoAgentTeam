@@ -1,0 +1,46 @@
+﻿{
+    "features":  [
+                     {
+                         "id":  "F001",
+                         "title":  "在根目录 Test 文件夹中实现简易 C# A* 算法",
+                         "status":  "done",
+                         "acceptance":  [
+                                            "仓库根目录存在 Test 文件夹",
+                                            "Test 文件夹下存在可读的 C# A* 实现代码文件",
+                                            "代码包含 A* 核心流程：open/closed 集合、g/h/f 代价、路径回溯",
+                                            "包含一个最小可运行/可调用示例（例如 Main 或示例方法）"
+                                        ],
+                         "notes":  "已在根目录 Test 下实现教学版 C# A*（open/closed、g/h/f、路径回溯）并提供 Main 可运行示例。"
+                     },
+                     {
+                         "id":  "U20260227180850",
+                         "title":  "自动反馈测试：仅更新说明，不做大改动",
+                         "status":  "done",
+                         "acceptance":  [
+                                            "根据用户自然语言完成任务",
+                                            "在进度日志记录结果并说明关键改动"
+                                        ],
+                         "notes":  "auto generated from natural-language instruction | execution 2026-02-27: documentation/log update only; no code changes."
+                     },
+                     {
+                         "id":  "U20260227183559",
+                         "title":  "自动反馈测试：仅更新说明，不做大改动",
+                         "status":  "done",
+                         "acceptance":  [
+                                            "根据用户自然语言完成任务",
+                                            "在进度日志记录结果并说明关键改动"
+                                        ],
+                         "notes":  "auto generated from natural-language instruction | execution 2026-02-27: 仅更新说明/日志，不做大改动；未修改业务代码。"
+                     },
+                     {
+                         "id":  "U20260227184037",
+                         "title":  "现在整合整个agent-team文件复制到一个文件夹下，便于我创建git库推到远端，实现开源 还...",
+                         "status":  "todo",
+                         "acceptance":  [
+                                            "根据用户自然语言完成任务",
+                                            "在进度日志记录结果并说明关键改动"
+                                        ],
+                         "notes":  "auto generated from natural-language instruction"
+                     }
+                 ]
+}

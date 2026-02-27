@@ -1,0 +1,15 @@
+﻿{
+    "features":  [
+                     {
+                         "id":  "U20260227195109",
+                         "title":  "你已经切换成功了",
+                         "status":  "done",
+                         "acceptance":  [
+                                            "根据用户自然语言完成任务",
+                                            "在进度日志记录结果并说明关键改动"
+                                        ],
+                         "notes":  "auto generated from natural-language instruction"
+                     }
+                 ]
+}
+
