@@ -10,3 +10,15 @@
 {"ts": "2026-02-27 19:52:25", "round": 1, "phase": "review", "worker": "implementer", "target": "skeptic", "status": "done", "exit": 0, "elapsed_sec": 10.88}
 {"ts": "2026-02-27 19:52:27", "round": 1, "phase": "review", "worker": "architect", "target": "implementer", "status": "done", "exit": 0, "elapsed_sec": 12.56}
 {"ts": "2026-02-27 19:52:28", "round": 1, "phase": "review", "worker": "skeptic", "target": "architect", "status": "done", "exit": 0, "elapsed_sec": 13.26}
+{"ts": "2026-02-27 19:55:05", "round": 1, "phase": "planning", "worker": "architect", "status": "started"}
+{"ts": "2026-02-27 19:55:05", "round": 1, "phase": "planning", "worker": "implementer", "status": "started"}
+{"ts": "2026-02-27 19:55:05", "round": 1, "phase": "planning", "worker": "skeptic", "status": "started"}
+{"ts": "2026-02-27 19:55:52", "round": 1, "phase": "planning", "worker": "architect", "status": "done", "exit": 0, "elapsed_sec": 46.59}
+{"ts": "2026-02-27 19:55:52", "round": 1, "phase": "planning", "worker": "implementer", "status": "done", "exit": 0, "elapsed_sec": 46.95}
+{"ts": "2026-02-27 19:56:09", "round": 1, "phase": "planning", "worker": "skeptic", "status": "done", "exit": 0, "elapsed_sec": 63.67}
+{"ts": "2026-02-27 19:56:09", "round": 1, "phase": "review", "worker": "architect", "target": "implementer", "status": "started"}
+{"ts": "2026-02-27 19:56:09", "round": 1, "phase": "review", "worker": "implementer", "target": "skeptic", "status": "started"}
+{"ts": "2026-02-27 19:56:09", "round": 1, "phase": "review", "worker": "skeptic", "target": "architect", "status": "started"}
+{"ts": "2026-02-27 19:56:21", "round": 1, "phase": "review", "worker": "architect", "target": "implementer", "status": "done", "exit": 0, "elapsed_sec": 12.06}
+{"ts": "2026-02-27 19:56:28", "round": 1, "phase": "review", "worker": "skeptic", "target": "architect", "status": "done", "exit": 0, "elapsed_sec": 19.1}
+{"ts": "2026-02-27 19:56:36", "round": 1, "phase": "review", "worker": "implementer", "target": "skeptic", "status": "done", "exit": 0, "elapsed_sec": 26.74}

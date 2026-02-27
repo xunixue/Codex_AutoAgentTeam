@@ -1,0 +1,24 @@
+﻿dataDir: ~/.agent-orchestrator
+worktreeDir: ~/.worktrees
+port: 3000
+
+defaults:
+  runtime: process
+  agent: codex
+  workspace: worktree
+  notifiers: [desktop]
+
+projects:
+  target-repo:
+    name: target-repo
+    repo: your-org/your-repo
+    # This path points to the host repository root when this package sits at <host>/agent-team-open-source.
+    path: '../..'
+    defaultBranch: main
+    sessionPrefix: target
+    tracker:
+      plugin: github
+    scm:
+      plugin: github
+    agentConfig:
+      permissions: skip
