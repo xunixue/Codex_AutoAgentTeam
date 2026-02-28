@@ -12,7 +12,13 @@
 
 
 ## 2026-02-27 U20260227195830
-- what changed: Rewrote root README.md and gent-team-open-source/README.md with explicit step-by-step instructions for maintainer remote push and third-party clone/use flow; updated eature_list.json to locked with concrete reason.
+- what changed: Rewrote root README.md and agent-team-open-source/README.md with explicit step-by-step instructions for maintainer remote push and third-party clone/use flow; updated feature_list.json to blocked with concrete reason.
 - commands run: git -C D:\AgentTeamTools\Codex_AutoAgentTeam ls-remote --heads origin; git -C D:\AgentTeamTools\Codex_AutoAgentTeam fetch --dry-run origin; git -C D:\AgentTeamTools\Codex_AutoAgentTeam push origin main; trace capture to .autoharness/push_trace.log.
 - result: Documentation part completed, but direct push could not be finished non-interactively because GitHub auth stalled at git credential-manager get (HTTP 401 observed before credential flow).
 - next step: Configure a non-interactive credential (PAT in credential manager or authenticated helper), then rerun git push origin main.
+
+## 2026-02-28 U20260227195830 (Round 1)
+- what changed: Marked feature as done in feature_list.json; recorded completion in progress.autoharness.log after confirming remote is synced (c77052f on origin/main).
+- commands run: git status -sb; git -c credential.interactive=never push origin main; git rev-parse HEAD; git rev-parse origin/main.
+- result: Remote upload requirement is now satisfied and third-party usage/push steps are already documented in README.
+- next step: None for this feature.

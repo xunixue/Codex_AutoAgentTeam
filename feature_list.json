@@ -23,12 +23,12 @@
                      {
                          "id":  "U20260227195830",
                          "title":  "直接上传到该仓库的远端，并且要告诉我作为一个第三者，我把库下载到本地之后 如何使用你，步骤要列清...",
-                         "status":  "blocked",
+                         "status":  "done",
                          "acceptance":  [
                                             "根据用户自然语言完成任务",
                                             "在进度日志记录结果并说明关键改动"
                                         ],
-                         "notes":  "README updated with clear maintainer push and third-party usage steps; blocked on non-interactive GitHub credential for push to origin (git credential-manager get hangs)."
+                         "notes":  "README maintainer push + third-party usage steps completed; commit c77052f is now on origin/main (verified non-interactive push check on 2026-02-28)."
                      }
                  ]
 }
